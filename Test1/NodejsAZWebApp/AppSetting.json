@@ -1,0 +1,7 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+	"TestKey1":"${{DYNAMIC_TESTKEY1}}", 
+	"TestFileKey1": "SSS"
+  }
+}

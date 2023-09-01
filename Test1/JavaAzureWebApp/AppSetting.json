@@ -1,0 +1,7 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+	"TestKey1":"${{DYNAMIC_TESTKEY6}}", 
+	"TestFileKey2":" ${{DYNAMIC_ENV_TESTKEY6}}"
+  }
+}

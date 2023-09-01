@@ -1,0 +1,15 @@
+[{
+   "paramName": "SB_CONNECTION_STRING",
+   "type": "custom",
+   "paramValue": "Endpoint=sb://${{SERVICEBUS_HOST}}.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MQN1lKTPtKsG+o+yFP1PTY6LAVuxKH5QvYLtpzcDifY="
+},
+{
+   "paramName": "SQL_DB_Conn",
+   "type": "mysql",
+    "paramValue": "jdbc:sqlserver://${{SQL_DB_ENVWISE_HOST}}:1433;database=fiber;user=raisa;password=testpass;encrypt=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
+},
+{
+   "paramName": "SQL_DB_Conn2",
+   "type": "mysql",
+    "paramValue": "jdbc:sqlserver://local.sqldb.xyz.net:1433;database=eee;user=raisa;password=asdas;encrypt=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
+}]
