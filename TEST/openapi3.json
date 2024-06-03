@@ -1,0 +1,161 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Duplicate Service ",
+        "description": "Check the same information was entered as an existing record",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://biforv8ttzke2zv-intgdev1.adb.us-ashburn-1.oraclecloudapps.com/ords/xxmcd_erpintg/duplicaterecordmodule",
+            "description": "Ords Xxmcd Erpintg",
+            "x-vb": {
+                "authentication": {
+                    "authenticated": {
+                        "type": "oauth2_client_credentials",
+                        "clientIdCredentials": "vb_55ab5e27-2957-4806-9064-5080ed4807f5",
+                        "authUrl": "https://biforv8ttzke2zv-intgdev1.adb.us-ashburn-1.oraclecloudapps.com/ords/xxmcd_erpintg/oauth/token"
+                    }
+                }
+            }
+        }
+    ],
+    "paths": {
+        "/get_duplicate_records/": {
+            "post": {
+                "operationId": "postGet_duplicate_records",
+                "requestBody": {
+                    "description": "Request for application/json",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/PostGet_duplicate_recordsRequest"
+                            },
+                            "examples": {
+                                "vb": {
+                                    "summary": "Example stored by VB User",
+                                    "externalValue": "./examples/postGet_duplicate_records/request_application_json_vb.json"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "default": {
+                        "description": "Response for default",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/PostGet_duplicate_recordsResponse"
+                                },
+                                "examples": {
+                                    "vb": {
+                                        "summary": "Example stored by VB User",
+                                        "externalValue": "./examples/postGet_duplicate_records/response_default_application_json_vb.json"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "x-vb": {
+                    "actionHint": "create"
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "PostGet_duplicate_recordsRequest": {
+                "type": "object",
+                "properties": {
+                    "ledger": {
+                        "type": "string"
+                    },
+                    "mapper": {
+                        "type": "string"
+                    },
+                    "company": {
+                        "nullable": true
+                    },
+                    "lineOfBusiness": {
+                        "type": "string"
+                    },
+                    "location": {
+                        "nullable": true
+                    },
+                    "hrDeptCostCenter": {
+                        "nullable": true
+                    },
+                    "accountNumber": {
+                        "type": "string"
+                    },
+                    "legacySegment1": {
+                        "type": "string"
+                    },
+                    "legacySegment2": {
+                        "nullable": true
+                    },
+                    "legacySegment3": {
+                        "nullable": true
+                    },
+                    "legacySegment4": {
+                        "nullable": true
+                    },
+                    "startDate": {
+                        "type": "string"
+                    },
+                    "endDate": {
+                        "nullable": true
+                    },
+                    "interfaceType": {
+                        "type": "string"
+                    },
+                    "lookup": {
+                        "nullable": true
+                    },
+                    "descriptions": {
+                        "nullable": true
+                    }
+                }
+            },
+            "PostGet_duplicate_recordsResponse": {
+                "type": "object",
+                "properties": {
+                    "duplicaterecords": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "set_of_books_name": {
+                                    "type": "string"
+                                },
+                                "lookup_type": {
+                                    "type": "string"
+                                },
+                                "orcl_segment2": {
+                                    "type": "string"
+                                },
+                                "orcl_segment5": {
+                                    "type": "string"
+                                },
+                                "lgcy_segment1": {
+                                    "type": "string"
+                                },
+                                "start_date_active": {
+                                    "type": "string"
+                                },
+                                "end_date_active": {
+                                    "nullable": true
+                                },
+                                "interface_type": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
