@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <LOCALE>en_US</LOCALE>
+    <User name="" password=""/>        <Task>
+            <Source type="Application" product="HP" project="Default Application Group" application="VisCnsl"/>
+            <Target type="FileSystem" filePath="/HP-VisCnsl"/>
+<Artifact recursive="false" parentPath="/Cube/Consol/Calculation Manager Rules" pattern="Discount"/><Artifact recursive="false" parentPath="/Global Artifacts/Common Dimensions/Standard Dimensions" pattern="Account"/>        </Task>
+     </Package>
