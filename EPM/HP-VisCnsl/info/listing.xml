@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<artifactListing>	<resource name="Discount" id="Discount" type="Rule" cloneOnly="false" size="" path="/Cube/Consol/Calculation Manager Rules" pathAlias="/Cube/Consol/Calculation Manager Rules" modifiedBy="" lastUpdated="" description=""/>
-	<resource name="Account" id="Account" type="Account Dimension" cloneOnly="false" size="" path="/Global Artifacts/Common Dimensions/Standard Dimensions" pathAlias="/Global Artifacts/Common Dimensions/Standard Dimensions" modifiedBy="" lastUpdated="" description=""/>
-    </artifactListing>
