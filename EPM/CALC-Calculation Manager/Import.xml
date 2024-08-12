@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <LOCALE>en_US</LOCALE>
+    <User name="" password=""/>
+    <ExportedVersion>24.07.52</ExportedVersion>
+    <ExportedDateUTC>20240812</ExportedDateUTC>
+    <ExportedTimeUTC>00:00</ExportedTimeUTC>
+    <ExportedBy>epm_default_cloud_admin</ExportedBy>
+    <IDMDomain></IDMDomain>
+    <ServiceInstance>epm-303496-fcc</ServiceInstance>        <Task>
+            <Source type="FileSystem" filePath="/"/>
+            <Target type="Application" product="CALC" project="Foundation" application="Calculation Manager"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Discount"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_10_After Opening Balance Carry Forward_LocalCurrency"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_20_Final Calculations_LocalCurrency"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_25_Before FX_Calcs_Translated"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_30_After Opening Balance Carry Forward_Translated"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_40_Final Calculations_Translated"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_50_After Opening Balance Carry Forward_Consolidated"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_60_Final Calculations_Consolidated"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Gtest"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="SimpleAcc"/><Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Templates" pattern="UpdateViewCalculations_Template"/>        </Task>
+     </Package>
