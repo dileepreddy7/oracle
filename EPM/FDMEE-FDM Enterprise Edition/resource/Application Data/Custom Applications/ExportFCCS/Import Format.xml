@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ImportFormats>
+   <ImportGroupsLcmVO/>
+   <ImportGroupsAdapterVO/>
+   <ImportGroupsFileLcmVO>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>ExportFCCS</Impgroupkey>
+         <Impgroupdesc>Export FCCS Data</Impgroupdesc>
+         <SourceSystemName>EPM</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>VisCnsl</EpmSourceSystemName>
+         <TargetApplicationName>ExportFCCS</TargetApplicationName>
+         <ApplicationName>ExportFCCS</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Intercompany</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Data Source</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD3</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Movement</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Multi-GAAP</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+   </ImportGroupsFileLcmVO>
+</ImportFormats>

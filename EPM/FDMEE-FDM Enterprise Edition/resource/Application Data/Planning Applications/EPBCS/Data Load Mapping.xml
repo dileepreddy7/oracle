@@ -1,0 +1,969 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MappingForLcmVO>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60110</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Salaries</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60111</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Salaries</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60210</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Salaries</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60220</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Bonus</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60230</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Car Allowance</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60502</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Marketing Events</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60510</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Travel and Entertainment</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60511</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Travel and Entertainment</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60512</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Airfare</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60513</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Car Rental</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60515</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Car Rental</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60520</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Office Supplies</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60521</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Meals</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60522</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Travel and Entertainment</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60530</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Hotel</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>60540</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Travel and Entertainment</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>62510</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Selling Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>62520</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Selling Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>62540</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Selling Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63120</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Marketing Campaigns</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63140</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Marketing Events</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63160</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Marketing</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63170</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Marketing</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63180</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Advertising and Promotion</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63500</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Rent Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63510</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Rent Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63521</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Repairs and Maintenance</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63530</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Utilities</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63531</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Outside Services</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63541</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Repairs and Maintenance</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63544</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Repairs and Maintenance</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63552</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Rent Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63561</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Insurance</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63570</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Meals</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63580</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Office and General Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>63596</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Office and General Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>64210</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Office and General Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>64220</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Office and General Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>64300</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Outside Legal Fees</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>64510</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Communications</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>64550</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Office and General Expense</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>65110</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Outside Services</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>65210</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Outside Legal Fees</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>65300</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Audit Related Fees</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>65410</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Recruitment Fees</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>65600</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Other Outside Services</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68120</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68130</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68140</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68150</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68160</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68170</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68250</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>68270</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OFS_Miscellaneous Expenses</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ENTITY</Dimname>
+      <Srckey>C_101</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>Sales US</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>ENTITY</Dimname>
+      <Srckey>[C_100].[C_101]</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>Sales US</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>UD1</Dimname>
+      <Srckey>Version OEP Working</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>OEP_Working</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>UD7</Dimname>
+      <Srckey>Market</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>No Market</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>UD8</Dimname>
+      <Srckey>PlanElement</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>Consolidated_Actual</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Actual to Planning</Partname>
+      <Dimname>UD9</Dimname>
+      <Srckey>Product</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>No Product</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>Expenses</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_*</Targkey>
+      <Whereclausetype>BETWEEN</Whereclausetype>
+      <Whereclausevalue>60000,99999</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>Ignore Balance Sheet and Revenue</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>IGNORE</Targkey>
+      <Whereclausetype>BETWEEN</Whereclausetype>
+      <Whereclausevalue>10000,59999</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>ENTITY</Dimname>
+      <Srckey>Entity Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD1</Dimname>
+      <Srckey>Version Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>Adjustments</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD16</Dimname>
+      <Srckey>US Operations</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>CC_121</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD17</Dimname>
+      <Srckey>FCCS_No Intercompany</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>IC_000</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD17</Dimname>
+      <Srckey>Intercompany Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>IC??*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD18</Dimname>
+      <Srckey>LoB Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>L_10</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Adjusts to Planning</Partname>
+      <Dimname>UD9</Dimname>
+      <Srckey>Product Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+</MappingForLcmVO>

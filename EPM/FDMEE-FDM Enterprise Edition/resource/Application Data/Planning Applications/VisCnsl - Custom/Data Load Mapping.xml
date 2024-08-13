@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MappingForLcmVO>
+   <MappingForLcmVORow>
+      <Partname>ERP Product Metadata</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>All Corporate Products-V1</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>IGNORE</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>ERP Product Metadata</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>zAllOther</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>PRD_*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>ERP Product Metadata</Partname>
+      <Dimname>ENTITY</Dimname>
+      <Srckey>zALL</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>#SQL</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Vbscript>CASE ATTR1
+WHEN '1' THEN 'Product_Total'
+WHEN '2' THEN 'Product_Total'
+ELSE 'PRD_'|| ENTITY
+END</Vbscript>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>ERP Product Metadata</Partname>
+      <Dimname>UD1</Dimname>
+      <Srckey>zAll</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>#SQL</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Vbscript>CASE WHEN ATTR3 = '0' THEN 'Never Share'
+ELSE 'Dynamic Calc'
+END</Vbscript>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+</MappingForLcmVO>

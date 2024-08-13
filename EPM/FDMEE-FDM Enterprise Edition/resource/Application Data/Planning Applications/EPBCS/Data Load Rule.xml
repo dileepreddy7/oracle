@@ -1,0 +1,255 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataRuleForLcmVO>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN2</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Actual Operating Expenses</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Actual to Planning</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>EPBCS</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <SourceAppPlanType>PLAN1</SourceAppPlanType>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1143</ParameterId>
+            <ParameterName>DataExportDynamicCalc</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1144</ParameterId>
+            <ParameterName>View</ParameterName>
+            <ParameterValue>"FCCS_Periodic"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1145</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1146</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>"P_000"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1147</ParameterId>
+            <ParameterName>Multi-GAAP</ParameterName>
+            <ParameterValue>"FCCS_Local GAAP"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1148</ParameterId>
+            <ParameterName>Movement</ParameterName>
+            <ParameterValue>"FCCS_Mvmts_NetIncome"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1149</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>"FCCS_No Intercompany"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1150</ParameterId>
+            <ParameterName>Entity</ParameterName>
+            <ParameterValue>"[C_100].[C_101]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1151</ParameterId>
+            <ParameterName>Data Source</ParameterName>
+            <ParameterValue>"FCCS_TotalInputAndAdjusted"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1152</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"Entity Currency"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1153</ParameterId>
+            <ParameterName>Consolidation</ParameterName>
+            <ParameterValue>"FCCS_Entity Input"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1154</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("FCCS_Operating Expenses")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1155</ParameterId>
+            <ParameterName>PURGE_DATA_FILE</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Export Adjustments</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Adjusts to Planning</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>EPBCS</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <SourceAppPlanType>PLAN1</SourceAppPlanType>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1156</ParameterId>
+            <ParameterName>DataExportDynamicCalc</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1157</ParameterId>
+            <ParameterName>Entity</ParameterName>
+            <ParameterValue>"C_101"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1158</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"Entity Currency"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1159</ParameterId>
+            <ParameterName>Data Source</ParameterName>
+            <ParameterValue>"FCCS_Journal Input"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1160</ParameterId>
+            <ParameterName>Consolidation</ParameterName>
+            <ParameterValue>"FCCS_Entity Input"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1161</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("FCCS_Operating Expenses")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1162</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>"FCCS_No Intercompany"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1163</ParameterId>
+            <ParameterName>Movement</ParameterName>
+            <ParameterValue>"FCCS_Mvmts_NetIncome"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1164</ParameterId>
+            <ParameterName>Multi-GAAP</ParameterName>
+            <ParameterValue>"FCCS_Local GAAP"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1165</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>"P_000"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1166</ParameterId>
+            <ParameterName>View</ParameterName>
+            <ParameterValue>"FCCS_Periodic"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1167</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>Actual</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+</DataRuleForLcmVO>

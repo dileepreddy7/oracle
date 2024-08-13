@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CheckEntityGroupForLcmVO>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>Legal Consolidation</Valentgroupdesc>
+      <Valentgroupkey>Legal</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>Legal</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>LegalEntities</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>Asia Pacific</Valentgroupdesc>
+      <Valentgroupkey>Asia Pacific</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>Asia Pacific</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>C_400</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>Total Company Consolidation</Valentgroupdesc>
+      <Valentgroupkey>Total Company</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>Total Company</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>C_T</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>North America</Valentgroupdesc>
+      <Valentgroupkey>North America</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>North America</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>C_100</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>Europe, Middle East and Africa</Valentgroupdesc>
+      <Valentgroupkey>EMEA</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>EMEA</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>C_300</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+   <CheckEntityGroupForLcmVORow>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Valentgroupdesc>Latin America</Valentgroupdesc>
+      <Valentgroupkey>LAD</Valentgroupkey>
+      <CheckEntityItemForLcmVO>
+         <CheckEntityItemForLcmVORow>
+            <Valentgroupkey>LAD</Valentgroupkey>
+            <Valentlistconsol>1</Valentlistconsol>
+            <Valentlistentonreport>1</Valentlistentonreport>
+            <Valentlistenttype>0</Valentlistenttype>
+            <Valentlistname>C_200</Valentlistname>
+            <Valentlistorg null="true"/>
+            <Valentlistseq>0</Valentlistseq>
+            <Valentliststartperiod>0</Valentliststartperiod>
+         </CheckEntityItemForLcmVORow>
+      </CheckEntityItemForLcmVO>
+   </CheckEntityGroupForLcmVORow>
+</CheckEntityGroupForLcmVO>

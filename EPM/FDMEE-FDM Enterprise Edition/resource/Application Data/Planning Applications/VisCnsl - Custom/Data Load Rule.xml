@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataRuleForLcmVO>
+   <DataRuleForLcmVORow>
+      <AmountType null="true"/>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs null="true"/>
+      <BalanceAmountIs null="true"/>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection null="true"/>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag null="true"/>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Load Product Metadata</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath null="true"/>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>ERP Product Metadata</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl - Custom</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag>N</DirectFileLoadFlag>
+      <LoadOptions null="true"/>
+      <Impgroupkey>LoadProductMetadata</Impgroupkey>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1168</ParameterId>
+            <ParameterName>REFRESH_FROM_SOURCE</ParameterName>
+            <ParameterValue>Y</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+            <Condition>EQ</Condition>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1169</ParameterId>
+            <ParameterName>PURGE_DATA_FILE</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1170</ParameterId>
+            <ParameterName>EXPORT_FILE_DELIMITER</ParameterName>
+            <ParameterValue>tab</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1171</ParameterId>
+            <ParameterName>REFRESH_DATABASE</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1172</ParameterId>
+            <ParameterName>COA_APP_NAME</ParameterName>
+            <ParameterValue>USChartofAccounts</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+            <Condition>EQ</Condition>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1173</ParameterId>
+            <ParameterName>DIM_NAME</ParameterName>
+            <ParameterValue>Product</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+            <Condition>EQ</Condition>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1174</ParameterId>
+            <ParameterName>HIER_TOP_NODE</ParameterName>
+            <ParameterValue>All Corporate Products-V1</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+            <Condition>EQ</Condition>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1175</ParameterId>
+            <ParameterName>METADATA_LOAD_DIMENSION</ParameterName>
+            <ParameterValue>Product</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+</DataRuleForLcmVO>

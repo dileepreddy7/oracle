@@ -1,0 +1,283 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MappingForLcmVO>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>Account rule 01</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>FCCS_*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>Account rule 02</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>FCCS_Common Stock</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_31000</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>FCCS_Minority Interest</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_39999</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>FCCS_Minority Interest Income</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_79800</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>FCCS_Net Income</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_34000</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ACCOUNT</Dimname>
+      <Srckey>FCCS_Retained Earnings Prior</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>A_33100</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>ENTITY</Dimname>
+      <Srckey>Entity Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD1</Dimname>
+      <Srckey>Version Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>Working</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD10</Dimname>
+      <Srckey>Consolidation Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*_FCCS</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>FCCS_*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD11</Dimname>
+      <Srckey>LoB Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>L_10</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD2</Dimname>
+      <Srckey>View Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>FCCS_*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD5</Dimname>
+      <Srckey>Cost Center Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>No Cost Center</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD6</Dimname>
+      <Srckey>Currency Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>USD</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD7</Dimname>
+      <Srckey>Movement Rule 01</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>FCCS_*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD7</Dimname>
+      <Srckey>Movement Rule 02</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD8</Dimname>
+      <Srckey>FCCS_No Intercompany</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>ICP_C_000</Targkey>
+      <Whereclausetype null="true"/>
+      <Whereclausevalue null="true"/>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD8</Dimname>
+      <Srckey>Intercompany Rule 01</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>FCCS_*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD8</Dimname>
+      <Srckey>Intercompany Rule 02</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+   <MappingForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Dimname>UD9</Dimname>
+      <Srckey>Product Rule</Srckey>
+      <Srcdesc null="true"/>
+      <Targkey>*</Targkey>
+      <Whereclausetype>LIKE</Whereclausetype>
+      <Whereclausevalue>*</Whereclausevalue>
+      <Changesign>0</Changesign>
+      <Sequence>0</Sequence>
+      <Tdatamaptype>ERP</Tdatamaptype>
+      <SystemGeneratedFlag>N</SystemGeneratedFlag>
+      <Datarulename null="true"/>
+   </MappingForLcmVORow>
+</MappingForLcmVO>

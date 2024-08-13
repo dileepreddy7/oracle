@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TargetApplicationForLcmVO>
+   <TargetApplicationForLcmVORow>
+      <ApplicationName>ERP Chart of Accounts</ApplicationName>
+      <CreateDrillRegionFlag>N</CreateDrillRegionFlag>
+      <DataLoadMethod>ADAPTER</DataLoadMethod>
+      <DefaultLanguage>AMERICAN</DefaultLanguage>
+      <EssbaseDbName null="true"/>
+      <Intsystemkey>SOURCE</Intsystemkey>
+      <MarkedForDeletion>N</MarkedForDeletion>
+      <MetadataLoadMethod>ADAPTER</MetadataLoadMethod>
+      <SelectedFlag>Y</SelectedFlag>
+      <TargetApplicationName>ERP Chart of Accounts</TargetApplicationName>
+      <TargetApplicationSubType>GLMETADATA</TargetApplicationSubType>
+      <TargetApplicationType>DATASOURCE</TargetApplicationType>
+      <SourceSystemName>Data Source</SourceSystemName>
+      <TargetAppDimensionsForLcmVO>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>8</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Segment Value</TargetDimensionName>
+            <TargetDimensionNameOrg>Segment Value</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>7</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Description</TargetDimensionName>
+            <TargetDimensionNameOrg>Description</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>6</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Parent Value</TargetDimensionName>
+            <TargetDimensionNameOrg>Parent Value</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>5</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Level</TargetDimensionName>
+            <TargetDimensionNameOrg>Level</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>4</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Generation</TargetDimensionName>
+            <TargetDimensionNameOrg>Generation</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>3</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Account Type</TargetDimensionName>
+            <TargetDimensionNameOrg>Account Type</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>2</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Variance Reporting</TargetDimensionName>
+            <TargetDimensionNameOrg>Variance Reporting</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+         <TargetAppDimensionsForLcmVORow>
+            <DimViewSeq>1</DimViewSeq>
+            <TargetDimClassNameOrg>Generic</TargetDimClassNameOrg>
+            <TargetDimensionClassName>Generic</TargetDimensionClassName>
+            <TargetDimensionName>Hierarchy Top Node</TargetDimensionName>
+            <TargetDimensionNameOrg>Hierarchy Top Node</TargetDimensionNameOrg>
+         </TargetAppDimensionsForLcmVORow>
+      </TargetAppDimensionsForLcmVO>
+      <TargetApplicationPropertiesForLcmVO>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>Adapter_ExtractData</PropertyType>
+            <PropertyValue>FinancialDataQuality/bin/plugin/GLMetadata.py</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>Adapter_jarfile</PropertyType>
+            <PropertyValue>FinancialDataQuality/lib/aif-file.jar</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>COA_APP_NAME</PropertyType>
+            <PropertyValueId>-1</PropertyValueId>
+            <Condition>EQ</Condition>
+            <DisplayOrder>1010</DisplayOrder>
+            <DisplayPrompt>COA Application Name</DisplayPrompt>
+            <PropertyLevel>1000</PropertyLevel>
+            <ValidationObject>FSGL_COAAPPNAME_LOV</ValidationObject>
+            <ValidationType>RESTLOV</ValidationType>
+            <PropertyScope>SOURCE</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>DIM_NAME</PropertyType>
+            <PropertyValueId>-1</PropertyValueId>
+            <Condition>EQ</Condition>
+            <DisplayOrder>1020</DisplayOrder>
+            <DisplayPrompt>Segment Name</DisplayPrompt>
+            <PropertyLevel>1000</PropertyLevel>
+            <ValidationObject>FSGL_SEGMENTNAME_LOV?APPNAME=$COA_APP_NAME$</ValidationObject>
+            <ValidationType>RESTLOV</ValidationType>
+            <PropertyScope>SOURCE</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>HIER_TOP_NODE</PropertyType>
+            <PropertyValueId>-1</PropertyValueId>
+            <Condition>EQ</Condition>
+            <DisplayOrder>1030</DisplayOrder>
+            <DisplayPrompt>Hierarchy Top Node</DisplayPrompt>
+            <PropertyLevel>1000</PropertyLevel>
+            <ValidationObject>FSGL_HIERTOPNODE_LOV?APPNAME=$COA_APP_NAME$&amp;DIMNAME=$DIM_NAME$</ValidationObject>
+            <ValidationType>RESTLOV</ValidationType>
+            <PropertyScope>SOURCE</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>REFRESH_FROM_SOURCE</PropertyType>
+            <PropertyValue>N</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <Condition>EQ</Condition>
+            <DisplayOrder>2010</DisplayOrder>
+            <DisplayPrompt>Refresh from Source</DisplayPrompt>
+            <PropertyLevel>2000</PropertyLevel>
+            <ValidationObject>YES_NO</ValidationObject>
+            <ValidationType>LOOKUP_VALIDATE</ValidationType>
+            <PropertyScope>SOURCE</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>appcount</PropertyType>
+            <PropertyValue>SINGLE</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>code</PropertyType>
+            <PropertyValue>GLMETADATA</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>name</PropertyType>
+            <PropertyValue>Oracle ERP Cloud (Chart of Accounts)</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>provider</PropertyType>
+            <PropertyValue>EPM</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>registrationfile</PropertyType>
+            <PropertyValue>FinancialDataQuality/database/adapters/plugin/GLMETADATA.json</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>registrationtype</PropertyType>
+            <PropertyValue>JSON</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+         <TargetApplicationPropertiesForLcmVORow>
+            <PropertyType>usage</PropertyType>
+            <PropertyValue>SOURCE</PropertyValue>
+            <PropertyValueId>-1</PropertyValueId>
+            <PropertyLevel>0</PropertyLevel>
+            <PropertyScope>SYSTEM</PropertyScope>
+         </TargetApplicationPropertiesForLcmVORow>
+      </TargetApplicationPropertiesForLcmVO>
+   </TargetApplicationForLcmVORow>
+</TargetApplicationForLcmVO>

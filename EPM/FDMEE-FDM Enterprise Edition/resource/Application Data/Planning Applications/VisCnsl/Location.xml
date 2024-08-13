@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LocationForLcmVO>
+   <LocationForLcmVORow>
+      <Partname>Planning Fin Fusion</Partname>
+      <SourceSystemName>EPM</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>FinFSN Format</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>FinFSN</Sourceappname>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Planning</Partname>
+      <SourceSystemName>EPM</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>PlanningFcst</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>EPBCS</Sourceappname>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>VisCnsl</Partname>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>VisCnsl</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Vision Check</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>North America</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Europe Business Unit</Partname>
+      <Partdesc>File Import Data BU</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>File Import Data BU</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Europe</Partname>
+      <Partdesc>File Import Data</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>File Import Data</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>PeopleSoft</Partname>
+      <Partdesc>PeopleSoft GL</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>PeopleSoft</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Vision Check PSFT</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>LAD</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Singapore</Partname>
+      <Partdesc>Singapore Trial Balance</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>SGP_TB</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Vision Check</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>Asia Pacific</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>EBS</Partname>
+      <Partdesc>EBS GL</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>EBS</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Vision Check EBS</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>North America</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Europe Closing Bal</Partname>
+      <Partdesc>File Import Data Closing Balance</Partdesc>
+      <SourceSystemName>File</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>File Import Clo Bal</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Cloud ERP</Partname>
+      <Partdesc>Fusion Cloud GL R13</Partdesc>
+      <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>Fusion Cloud GL R12</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Vision Check Cloud</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>USChartofAccounts</Sourceappname>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Cloud ERP Supremo</Partname>
+      <Partdesc>Supremo</Partdesc>
+      <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>Fusion Cloud GL YTD</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>Supremo Check</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>USChartofAccounts</Sourceappname>
+   </LocationForLcmVORow>
+   <LocationForLcmVORow>
+      <Partname>Cloud ERP UK</Partname>
+      <Partdesc>UK</Partdesc>
+      <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <Partcurrencykey>Entity Currency</Partcurrencykey>
+      <Partimpgroup>Fusion Cloud GL UK</Partimpgroup>
+      <Partdatavalue>FCCS_Entity Input</Partdatavalue>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>UKChartofAccounts</Sourceappname>
+   </LocationForLcmVORow>
+</LocationForLcmVO>

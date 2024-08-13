@@ -1,0 +1,2247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<PeriodAdapterLcmVO>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>10-20</Perioddesc>
+      <Priorperiodkey>2020-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>11-20</Perioddesc>
+      <Priorperiodkey>2020-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>12-20</Perioddesc>
+      <Priorperiodkey>2020-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>01-21</Perioddesc>
+      <Priorperiodkey>2020-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>02-21</Perioddesc>
+      <Priorperiodkey>2021-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>03-21</Perioddesc>
+      <Priorperiodkey>2021-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>04-21</Perioddesc>
+      <Priorperiodkey>2021-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>05-21</Perioddesc>
+      <Priorperiodkey>2021-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>06-21</Perioddesc>
+      <Priorperiodkey>2021-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>07-21</Perioddesc>
+      <Priorperiodkey>2021-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>08-21</Perioddesc>
+      <Priorperiodkey>2021-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>09-21</Perioddesc>
+      <Priorperiodkey>2021-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>10-21</Perioddesc>
+      <Priorperiodkey>2021-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>11-21</Perioddesc>
+      <Priorperiodkey>2021-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2021-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-21</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2021</Yeartarget>
+      <Perioddesc>12-21</Perioddesc>
+      <Priorperiodkey>2021-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>01-22</Perioddesc>
+      <Priorperiodkey>2021-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>02-22</Perioddesc>
+      <Priorperiodkey>2022-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>03-22</Perioddesc>
+      <Priorperiodkey>2022-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>04-22</Perioddesc>
+      <Priorperiodkey>2022-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>05-22</Perioddesc>
+      <Priorperiodkey>2022-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>06-22</Perioddesc>
+      <Priorperiodkey>2022-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>07-22</Perioddesc>
+      <Priorperiodkey>2022-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>08-22</Perioddesc>
+      <Priorperiodkey>2022-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>09-22</Perioddesc>
+      <Priorperiodkey>2022-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>10-22</Perioddesc>
+      <Priorperiodkey>2022-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>11-22</Perioddesc>
+      <Priorperiodkey>2022-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2022-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-22</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2022</Yeartarget>
+      <Perioddesc>12-22</Perioddesc>
+      <Priorperiodkey>2022-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>01-23</Perioddesc>
+      <Priorperiodkey>2022-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>02-23</Perioddesc>
+      <Priorperiodkey>2023-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>03-23</Perioddesc>
+      <Priorperiodkey>2023-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>04-23</Perioddesc>
+      <Priorperiodkey>2023-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>05-23</Perioddesc>
+      <Priorperiodkey>2023-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>06-23</Perioddesc>
+      <Priorperiodkey>2023-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>07-23</Perioddesc>
+      <Priorperiodkey>2023-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>08-23</Perioddesc>
+      <Priorperiodkey>2023-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>09-23</Perioddesc>
+      <Priorperiodkey>2023-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>10-23</Perioddesc>
+      <Priorperiodkey>2023-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>11-23</Perioddesc>
+      <Priorperiodkey>2023-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2023-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-23</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2023</Yeartarget>
+      <Perioddesc>12-23</Perioddesc>
+      <Priorperiodkey>2023-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>01-24</Perioddesc>
+      <Priorperiodkey>2023-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-02-29</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>02-24</Perioddesc>
+      <Priorperiodkey>2024-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>03-24</Perioddesc>
+      <Priorperiodkey>2024-02-29</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>04-24</Perioddesc>
+      <Priorperiodkey>2024-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>05-24</Perioddesc>
+      <Priorperiodkey>2024-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>06-24</Perioddesc>
+      <Priorperiodkey>2024-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>07-24</Perioddesc>
+      <Priorperiodkey>2024-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>08-24</Perioddesc>
+      <Priorperiodkey>2024-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>09-24</Perioddesc>
+      <Priorperiodkey>2024-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>10-24</Perioddesc>
+      <Priorperiodkey>2024-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>11-24</Perioddesc>
+      <Priorperiodkey>2024-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2024-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-24</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2024</Yeartarget>
+      <Perioddesc>12-24</Perioddesc>
+      <Priorperiodkey>2024-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>01-25</Perioddesc>
+      <Priorperiodkey>2024-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>02-25</Perioddesc>
+      <Priorperiodkey>2025-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>03-25</Perioddesc>
+      <Priorperiodkey>2025-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>04-25</Perioddesc>
+      <Priorperiodkey>2025-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>05-25</Perioddesc>
+      <Priorperiodkey>2025-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>06-25</Perioddesc>
+      <Priorperiodkey>2025-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>07-25</Perioddesc>
+      <Priorperiodkey>2025-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>08-25</Perioddesc>
+      <Priorperiodkey>2025-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>09-25</Perioddesc>
+      <Priorperiodkey>2025-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>10-25</Perioddesc>
+      <Priorperiodkey>2025-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>11-25</Perioddesc>
+      <Priorperiodkey>2025-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2025-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-25</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2025</Yeartarget>
+      <Perioddesc>12-25</Perioddesc>
+      <Priorperiodkey>2025-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>01-26</Perioddesc>
+      <Priorperiodkey>2025-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>02-26</Perioddesc>
+      <Priorperiodkey>2026-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>03-26</Perioddesc>
+      <Priorperiodkey>2026-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>04-26</Perioddesc>
+      <Priorperiodkey>2026-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>05-26</Perioddesc>
+      <Priorperiodkey>2026-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>06-26</Perioddesc>
+      <Priorperiodkey>2026-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>07-26</Perioddesc>
+      <Priorperiodkey>2026-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>08-26</Perioddesc>
+      <Priorperiodkey>2026-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>09-26</Perioddesc>
+      <Priorperiodkey>2026-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>10-26</Perioddesc>
+      <Priorperiodkey>2026-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>11-26</Perioddesc>
+      <Priorperiodkey>2026-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2026-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-26</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2026</Yeartarget>
+      <Perioddesc>12-26</Perioddesc>
+      <Priorperiodkey>2026-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>01-10</Perioddesc>
+      <Priorperiodkey>2009-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>02-10</Perioddesc>
+      <Priorperiodkey>2010-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>03-10</Perioddesc>
+      <Priorperiodkey>2010-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>04-10</Perioddesc>
+      <Priorperiodkey>2010-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>05-10</Perioddesc>
+      <Priorperiodkey>2010-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>06-10</Perioddesc>
+      <Priorperiodkey>2010-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>07-10</Perioddesc>
+      <Priorperiodkey>2010-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>08-10</Perioddesc>
+      <Priorperiodkey>2010-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>09-10</Perioddesc>
+      <Priorperiodkey>2010-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>10-10</Perioddesc>
+      <Priorperiodkey>2010-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>11-10</Perioddesc>
+      <Priorperiodkey>2010-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2010-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-10</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2010</Yeartarget>
+      <Perioddesc>12-10</Perioddesc>
+      <Priorperiodkey>2010-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>01-11</Perioddesc>
+      <Priorperiodkey>2010-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>02-11</Perioddesc>
+      <Priorperiodkey>2011-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>03-11</Perioddesc>
+      <Priorperiodkey>2011-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>04-11</Perioddesc>
+      <Priorperiodkey>2011-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>05-11</Perioddesc>
+      <Priorperiodkey>2011-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>06-11</Perioddesc>
+      <Priorperiodkey>2011-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>07-11</Perioddesc>
+      <Priorperiodkey>2011-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>08-11</Perioddesc>
+      <Priorperiodkey>2011-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>09-11</Perioddesc>
+      <Priorperiodkey>2011-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>10-11</Perioddesc>
+      <Priorperiodkey>2011-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>11-11</Perioddesc>
+      <Priorperiodkey>2011-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2011-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-11</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2011</Yeartarget>
+      <Perioddesc>12-11</Perioddesc>
+      <Priorperiodkey>2011-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>01-12</Perioddesc>
+      <Priorperiodkey>2011-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-02-29</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>02-12</Perioddesc>
+      <Priorperiodkey>2012-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>03-12</Perioddesc>
+      <Priorperiodkey>2012-02-29</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>04-12</Perioddesc>
+      <Priorperiodkey>2012-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>05-12</Perioddesc>
+      <Priorperiodkey>2012-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>06-12</Perioddesc>
+      <Priorperiodkey>2012-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>07-12</Perioddesc>
+      <Priorperiodkey>2012-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>08-12</Perioddesc>
+      <Priorperiodkey>2012-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>09-12</Perioddesc>
+      <Priorperiodkey>2012-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>10-12</Perioddesc>
+      <Priorperiodkey>2012-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>11-12</Perioddesc>
+      <Priorperiodkey>2012-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2012-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-12</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2012</Yeartarget>
+      <Perioddesc>12-12</Perioddesc>
+      <Priorperiodkey>2012-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>01-13</Perioddesc>
+      <Priorperiodkey>2012-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>02-13</Perioddesc>
+      <Priorperiodkey>2013-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>03-13</Perioddesc>
+      <Priorperiodkey>2013-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>04-13</Perioddesc>
+      <Priorperiodkey>2013-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>05-13</Perioddesc>
+      <Priorperiodkey>2013-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>06-13</Perioddesc>
+      <Priorperiodkey>2013-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>07-13</Perioddesc>
+      <Priorperiodkey>2013-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>08-13</Perioddesc>
+      <Priorperiodkey>2013-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>09-13</Perioddesc>
+      <Priorperiodkey>2013-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>10-13</Perioddesc>
+      <Priorperiodkey>2013-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>11-13</Perioddesc>
+      <Priorperiodkey>2013-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2013-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-13</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2013</Yeartarget>
+      <Perioddesc>12-13</Perioddesc>
+      <Priorperiodkey>2013-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>01-14</Perioddesc>
+      <Priorperiodkey>2013-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>02-14</Perioddesc>
+      <Priorperiodkey>2014-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>03-14</Perioddesc>
+      <Priorperiodkey>2014-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>04-14</Perioddesc>
+      <Priorperiodkey>2014-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>05-14</Perioddesc>
+      <Priorperiodkey>2014-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>06-14</Perioddesc>
+      <Priorperiodkey>2014-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>07-14</Perioddesc>
+      <Priorperiodkey>2014-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>08-14</Perioddesc>
+      <Priorperiodkey>2014-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>09-14</Perioddesc>
+      <Priorperiodkey>2014-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>10-14</Perioddesc>
+      <Priorperiodkey>2014-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>11-14</Perioddesc>
+      <Priorperiodkey>2014-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2014-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-14</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2014</Yeartarget>
+      <Perioddesc>12-14</Perioddesc>
+      <Priorperiodkey>2014-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>01-15</Perioddesc>
+      <Priorperiodkey>2014-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>02-15</Perioddesc>
+      <Priorperiodkey>2015-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>03-15</Perioddesc>
+      <Priorperiodkey>2015-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>04-15</Perioddesc>
+      <Priorperiodkey>2015-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>05-15</Perioddesc>
+      <Priorperiodkey>2015-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>06-15</Perioddesc>
+      <Priorperiodkey>2015-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>07-15</Perioddesc>
+      <Priorperiodkey>2015-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>08-15</Perioddesc>
+      <Priorperiodkey>2015-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>09-15</Perioddesc>
+      <Priorperiodkey>2015-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>10-15</Perioddesc>
+      <Priorperiodkey>2015-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>11-15</Perioddesc>
+      <Priorperiodkey>2015-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2015-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-15</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2015</Yeartarget>
+      <Perioddesc>12-15</Perioddesc>
+      <Priorperiodkey>2015-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>01-16</Perioddesc>
+      <Priorperiodkey>2015-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-02-29</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>02-16</Perioddesc>
+      <Priorperiodkey>2016-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>03-16</Perioddesc>
+      <Priorperiodkey>2016-02-29</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>04-16</Perioddesc>
+      <Priorperiodkey>2016-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>05-16</Perioddesc>
+      <Priorperiodkey>2016-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>06-16</Perioddesc>
+      <Priorperiodkey>2016-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>07-16</Perioddesc>
+      <Priorperiodkey>2016-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>08-16</Perioddesc>
+      <Priorperiodkey>2016-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>09-16</Perioddesc>
+      <Priorperiodkey>2016-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>10-16</Perioddesc>
+      <Priorperiodkey>2016-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>11-16</Perioddesc>
+      <Priorperiodkey>2016-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2016-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-16</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2016</Yeartarget>
+      <Perioddesc>12-16</Perioddesc>
+      <Priorperiodkey>2016-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>01-17</Perioddesc>
+      <Priorperiodkey>2016-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>02-17</Perioddesc>
+      <Priorperiodkey>2017-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>03-17</Perioddesc>
+      <Priorperiodkey>2017-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>04-17</Perioddesc>
+      <Priorperiodkey>2017-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>05-17</Perioddesc>
+      <Priorperiodkey>2017-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>06-17</Perioddesc>
+      <Priorperiodkey>2017-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>07-17</Perioddesc>
+      <Priorperiodkey>2017-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>08-17</Perioddesc>
+      <Priorperiodkey>2017-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>09-17</Perioddesc>
+      <Priorperiodkey>2017-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>10-17</Perioddesc>
+      <Priorperiodkey>2017-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>11-17</Perioddesc>
+      <Priorperiodkey>2017-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2017-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-17</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2017</Yeartarget>
+      <Perioddesc>12-17</Perioddesc>
+      <Priorperiodkey>2017-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>01-18</Perioddesc>
+      <Priorperiodkey>2017-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>02-18</Perioddesc>
+      <Priorperiodkey>2018-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>03-18</Perioddesc>
+      <Priorperiodkey>2018-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>04-18</Perioddesc>
+      <Priorperiodkey>2018-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>05-18</Perioddesc>
+      <Priorperiodkey>2018-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>06-18</Perioddesc>
+      <Priorperiodkey>2018-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>07-18</Perioddesc>
+      <Priorperiodkey>2018-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>08-18</Perioddesc>
+      <Priorperiodkey>2018-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>09-18</Perioddesc>
+      <Priorperiodkey>2018-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>10-18</Perioddesc>
+      <Priorperiodkey>2018-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>11-18</Perioddesc>
+      <Priorperiodkey>2018-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2018-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-18</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2018</Yeartarget>
+      <Perioddesc>12-18</Perioddesc>
+      <Priorperiodkey>2018-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>01-19</Perioddesc>
+      <Priorperiodkey>2018-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-02-28</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>02-19</Perioddesc>
+      <Priorperiodkey>2019-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>03-19</Perioddesc>
+      <Priorperiodkey>2019-02-28</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>04-19</Perioddesc>
+      <Priorperiodkey>2019-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>05-19</Perioddesc>
+      <Priorperiodkey>2019-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>06-19</Perioddesc>
+      <Priorperiodkey>2019-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>07-19</Perioddesc>
+      <Priorperiodkey>2019-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>08-19</Perioddesc>
+      <Priorperiodkey>2019-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>09-19</Perioddesc>
+      <Priorperiodkey>2019-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-10-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>10-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>10-19</Perioddesc>
+      <Priorperiodkey>2019-09-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-11-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>11-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>11-19</Perioddesc>
+      <Priorperiodkey>2019-10-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2019-12-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>12-19</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2019</Yeartarget>
+      <Perioddesc>12-19</Perioddesc>
+      <Priorperiodkey>2019-11-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-01-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>01-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>01-20</Perioddesc>
+      <Priorperiodkey>2019-12-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-02-29</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>02-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>02-20</Perioddesc>
+      <Priorperiodkey>2020-01-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-03-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>03-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>03-20</Perioddesc>
+      <Priorperiodkey>2020-02-29</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-04-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>04-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>04-20</Perioddesc>
+      <Priorperiodkey>2020-03-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-05-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>05-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>05-20</Perioddesc>
+      <Priorperiodkey>2020-04-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-06-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>06-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>06-20</Perioddesc>
+      <Priorperiodkey>2020-05-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-07-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>07-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>07-20</Perioddesc>
+      <Priorperiodkey>2020-06-30</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-08-31</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>08-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>08-20</Perioddesc>
+      <Priorperiodkey>2020-07-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+   <PeriodAdapterLcmVORow>
+      <Intsystemkey>UKChartofAccounts</Intsystemkey>
+      <Periodkey>2020-09-30</Periodkey>
+      <Periodtargetd null="true"/>
+      <Periodtargetm>09-20</Periodtargetm>
+      <Periodtargetq null="true"/>
+      <Periodtargety null="true"/>
+      <Yeartarget>2020</Yeartarget>
+      <Perioddesc>09-20</Perioddesc>
+      <Priorperiodkey>2020-08-31</Priorperiodkey>
+   </PeriodAdapterLcmVORow>
+</PeriodAdapterLcmVO>

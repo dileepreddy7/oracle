@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ImportFormats>
+   <ImportGroupsLcmVO/>
+   <ImportGroupsAdapterVO/>
+   <ImportGroupsFileLcmVO>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>FCCS2DWL0</Impgroupkey>
+         <Impgroupdesc>FCCS to DW</Impgroupdesc>
+         <SourceSystemName>EPM</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>VisCnsl</EpmSourceSystemName>
+         <TargetApplicationName>AMgmtRpt-MgmtRpt</TargetApplicationName>
+         <ApplicationName>AMgmtRpt-MgmtRpt</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD10</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Consolidation</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>View</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD6</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Currency</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD7</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Movement</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD8</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Intercompany</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD9</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+   </ImportGroupsFileLcmVO>
+</ImportFormats>

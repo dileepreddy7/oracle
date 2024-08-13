@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CategoryForLcmVO>
+   <CategoryForLcmVORow>
+      <Catname>Actual</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>Actual</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>Budget</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>Budget</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>Current</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>Current</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>Forecast</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>Forecast</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>OEP_Scenarios</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>OEP_Scenarios</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>Plan</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>Plan</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+   <CategoryForLcmVORow>
+      <Catname>SK Copy Data</Catname>
+      <Catdesc null="true"/>
+      <Cattarget>WhatIf</Cattarget>
+      <Catfreq>M</Catfreq>
+   </CategoryForLcmVORow>
+</CategoryForLcmVO>

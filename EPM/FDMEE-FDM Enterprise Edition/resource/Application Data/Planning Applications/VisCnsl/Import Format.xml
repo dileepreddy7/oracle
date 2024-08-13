@@ -1,0 +1,1003 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ImportFormats>
+   <ImportGroupsLcmVO/>
+   <ImportGroupsAdapterVO/>
+   <ImportGroupsFileLcmVO>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>Planning Data</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>EPM</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>FinFSN</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp>constant("FCCS_Periodic")</Impfldtargetexp>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>LoB</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>FinFSN Format</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>EPM</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>FinFSN</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>constant("FCCS_Periodic")</Impfldfixedtext>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>LoB</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>PlanningFcst</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>EPM</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl>http://&lt;SERVERNAME>/HyperionPlanning/faces/LogOn?Direct=True&amp;ObjectType=FORM&amp;ObjectName=Review%20Variances&amp;POV=OEP_Working,USD,C_101</Impdrillurl>
+         <EpmSourceSystemName>EPBCS</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Cost Center</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>LoB</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>Fusion Cloud GL YTD</Impgroupkey>
+         <Impgroupdesc>Fusion Cloud GL YTD load</Impgroupdesc>
+         <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>USChartofAccounts</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_YTD_Input</Impfldfixedtext>
+               <Impfldsourcecolname>Ledger</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Intercompany</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Line of Business</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Cost Center</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>Fusion Cloud GL R12</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>USChartofAccounts</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>Ledger</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Intercompany</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Line of Business</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Cost Center</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD6</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Ledger</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>Fusion Cloud GL UK</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+         <Impgroupfiletype>EPM_EPM</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>UKChartofAccounts</EpmSourceSystemName>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>Ledger</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Intercompany</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Line of Business</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Cost Center</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>VisCnsl</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>5</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>5</Impfldstartpos>
+               <Impfldlength>5</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>2</Impfldstartpos>
+               <Impfldlength>5</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>4</Impfldstartpos>
+               <Impfldlength>5</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>PeopleSoft</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl>https://psf###-fscm.hap.iad.demoservices002.oraclepdemos.com/psc/peoplesoft01/EMPLOYEE/ERP/c/PROCESS_JOURNALS.INQUIRY_CRITERIA.GBL?Page=INQUIRY_CRITERIA&amp;Action=A&amp;INQUIRY=*DEFAULT&amp;DRILP=Y&amp;BUSINESS_UNIT=US001&amp;FISCAL_YEAR=2016&amp;PERIOD_FROM=6&amp;PERIOD_TO=6&amp;LEDGER=LOCAL&amp;CURRENCY_CD=USD&amp;STATISTICS_CODE=&amp;F1=ACCOUNT&amp;ACCOUNT=$ACCOUNT$&amp;F2=ALTACCT&amp;ALTACCT=&amp;F3=DEPTID&amp;DEPTID=$ENTITY$&amp;F4=OPERATING_UNIT&amp;OPERATING_UNIT=&amp;F5=PRODUCT&amp;PRODUCT=&amp;F6=BUDGET_REF&amp;BUDGET_REF=&amp;F7=AFFILIATE&amp;AFFILIATE=&amp;F8=PROJECT_ID&amp;PROJECT_ID=</Impdrillurl>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>3</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>2</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>VisCnslTB</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>FIXED</Impgroupfiletype>
+         <Impgroupdelimiter>-</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>GL Account</Impfldsourcecolname>
+               <Impfldstartpos>30</Impfldstartpos>
+               <Impfldlength>10</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>57</Impfldstartpos>
+               <Impfldlength>10</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext>C_131</Impfldfixedtext>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>ICP</Impfldsourcecolname>
+               <Impfldstartpos>41</Impfldstartpos>
+               <Impfldlength>4</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Local GAAP</Impfldfixedtext>
+               <Impfldsourcecolname>MultiGAAP</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>46</Impfldstartpos>
+               <Impfldlength>6</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>SGP_TB</Impgroupkey>
+         <Impgroupdesc>Singapore Trial Balance</Impgroupdesc>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>FIXED</Impgroupfiletype>
+         <Impgroupdelimiter>-</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>44</Impfldstartpos>
+               <Impfldlength>9</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>103</Impfldstartpos>
+               <Impfldlength>12</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DESC1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account Description</Impfldsourcecolname>
+               <Impfldstartpos>121</Impfldstartpos>
+               <Impfldlength>50</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext>C_405</Impfldfixedtext>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>ICP</Impfldsourcecolname>
+               <Impfldstartpos>63</Impfldstartpos>
+               <Impfldlength>4</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Managed Data</Impfldfixedtext>
+               <Impfldsourcecolname>Data Source</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD3</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Movement</Impfldsourcecolname>
+               <Impfldstartpos>48</Impfldstartpos>
+               <Impfldlength>5</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Local GAAP</Impfldfixedtext>
+               <Impfldsourcecolname>Multi-GAAP</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>79</Impfldstartpos>
+               <Impfldlength>6</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>EBS</Impgroupkey>
+         <Impgroupdesc>EBS Trial Balance</Impgroupdesc>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl>https://ebs###-app.hap.iad.demoservices002.oraclepdemos.com/OA_HTML/RF.jsp?function_id=1041634&amp;CALLING_PAGE=FDM_DRILLDOWN&amp;resp_appl_id=101&amp;resp_id=50553&amp;SOB_ID=1&amp;LED_ID=1&amp;fdm_per=Jun-07&amp;fdm_ccid=$ATTR1$&amp;fdm_currency=USD&amp;fdm_balance_type=A</Impdrillurl>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Amount</Impfldsourcecolname>
+               <Impfldstartpos>3</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ATTR1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>CCID</Impfldsourcecolname>
+               <Impfldstartpos>4</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>View</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Entity</Impfldsourcecolname>
+               <Impfldstartpos>2</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>File Import Data</Impgroupkey>
+         <Impgroupdesc>File Import Data</Impgroupdesc>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>GL Account </Impfldsourcecolname>
+               <Impfldstartpos>6</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Value</Impfldsourcecolname>
+               <Impfldstartpos>12</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>View</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DESC1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account Description</Impfldsourcecolname>
+               <Impfldstartpos>7</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>4</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>ICP</Impfldsourcecolname>
+               <Impfldstartpos>8</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Category</Impfldsourcecolname>
+               <Impfldstartpos>3</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext>Local GAAP</Impfldfixedtext>
+               <Impfldsourcecolname>GAAP</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Custom1</Impfldsourcecolname>
+               <Impfldstartpos>9</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>File Import Data BU</Impgroupkey>
+         <Impgroupdesc>File Import Data BU</Impgroupdesc>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>GL Account</Impfldsourcecolname>
+               <Impfldstartpos>6</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Value</Impfldsourcecolname>
+               <Impfldstartpos>12</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>View</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DESC1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account Description</Impfldsourcecolname>
+               <Impfldstartpos>7</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>4</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>IC Partner</Impfldsourcecolname>
+               <Impfldstartpos>8</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Category</Impfldsourcecolname>
+               <Impfldstartpos>3</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Business Unit</Impfldsourcecolname>
+               <Impfldstartpos>10</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>IC Business Unit</Impfldsourcecolname>
+               <Impfldstartpos>11</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>File Import Clo Bal</Impgroupkey>
+         <Impgroupdesc>File Import Data Closing Balance</Impgroupdesc>
+         <SourceSystemName>File</SourceSystemName>
+         <Impgroupfiletype>DELIMITED</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName null="true"/>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>GL Account </Impfldsourcecolname>
+               <Impfldstartpos>6</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>AMOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Value</Impfldsourcecolname>
+               <Impfldstartpos>12</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DATAVIEW</Impfldfieldname>
+               <Impfldfixedtext>FCCS_Periodic</Impfldfixedtext>
+               <Impfldsourcecolname>View</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>DESC1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Account Description</Impfldsourcecolname>
+               <Impfldstartpos>7</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Company</Impfldsourcecolname>
+               <Impfldstartpos>4</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext>IC Partner Total</Impfldfixedtext>
+               <Impfldsourcecolname>IC Partner</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Category</Impfldsourcecolname>
+               <Impfldstartpos>3</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD4</Impfldfieldname>
+               <Impfldfixedtext>Local GAAP</Impfldfixedtext>
+               <Impfldsourcecolname>GAAP</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD5</Impfldfieldname>
+               <Impfldfixedtext>Total Product</Impfldfixedtext>
+               <Impfldsourcecolname>Product</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>0</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+   </ImportGroupsFileLcmVO>
+</ImportFormats>

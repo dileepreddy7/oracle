@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SourceSystemForLcmVO>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>PeopleSoft</SourceSystemName>
+      <SourceSystemDescription>PeopleSoft General Ledger</SourceSystemDescription>
+      <SourceSystemType>FILE</SourceSystemType>
+      <DrillToSourceUrl>https://psf###-fscm.hap.iad.demoservices002.oraclepdemos.com </DrillToSourceUrl>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+   </SourceSystemForLcmVORow>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>EBS Source GL</SourceSystemName>
+      <SourceSystemDescription>EBS Source GL</SourceSystemDescription>
+      <SourceSystemType>FILE</SourceSystemType>
+      <DrillToSourceUrl>https://ebs###-app.hap.iad.demoservices002.oraclepdemos.com</DrillToSourceUrl>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+   </SourceSystemForLcmVORow>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>Fusion Cloud R12</SourceSystemName>
+      <SourceSystemDescription>Fusion Financials Cloud </SourceSystemDescription>
+      <SourceSystemType>FUSION_GL_CLOUD</SourceSystemType>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+      <SourceSystemOptionsForLcmVO>
+         <SourceSystemOptionsForLcmVORow>
+            <OptionName>FUSION_GL_WEB_SERVICE_PWD</OptionName>
+            <OptionValue>{AES2}f4zwCiTrjH4ouGJ4rxJzJS7KFscCHsZlLPtzcSwYOxY=</OptionValue>
+         </SourceSystemOptionsForLcmVORow>
+         <SourceSystemOptionsForLcmVORow>
+            <OptionName>FUSION_GL_WEB_SERVICE_USER</OptionName>
+            <OptionValue>casey.brown</OptionValue>
+         </SourceSystemOptionsForLcmVORow>
+         <SourceSystemOptionsForLcmVORow>
+            <OptionName>FUSION_GL_WEB_SERVICE_WSDL</OptionName>
+            <OptionValue>https://hostname</OptionValue>
+         </SourceSystemOptionsForLcmVORow>
+      </SourceSystemOptionsForLcmVO>
+   </SourceSystemForLcmVORow>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>File</SourceSystemName>
+      <SourceSystemDescription>File Load</SourceSystemDescription>
+      <SourceSystemType>FILE</SourceSystemType>
+      <OdiLogLevel>5</OdiLogLevel>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+   </SourceSystemForLcmVORow>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>EPM</SourceSystemName>
+      <SourceSystemType>EPM</SourceSystemType>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+   </SourceSystemForLcmVORow>
+   <SourceSystemForLcmVORow>
+      <SourceSystemName>Data Source</SourceSystemName>
+      <SourceSystemType>DATASOURCE</SourceSystemType>
+      <OdiContextCode>GLOBAL</OdiContextCode>
+   </SourceSystemForLcmVORow>
+</SourceSystemForLcmVO>

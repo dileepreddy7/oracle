@@ -1,0 +1,9 @@
+#provisioning
+project_name,application_name,role_id,product_type,user_id,user_provider,group_id,group_provider
+FDM,FDM Enterprise Edition,"native://DN=cn=FDM:502,ou=AIF,ou=Roles,dc=css,dc=hyperion,dc=com?ROLE",AIF-11.1.2.0,,,Demo_Power_Users,
+FDM,FDM Enterprise Edition,"native://DN=cn=FDM:503,ou=AIF,ou=Roles,dc=css,dc=hyperion,dc=com?ROLE",AIF-11.1.2.0,,,Demo_Power_Users,
+FDM,FDM Enterprise Edition,"native://DN=cn=FDM:504,ou=AIF,ou=Roles,dc=css,dc=hyperion,dc=com?ROLE",AIF-11.1.2.0,,,Demo_Power_Users,
+FDM,FDM Enterprise Edition,"native://DN=cn=FDM:504,ou=AIF,ou=Roles,dc=css,dc=hyperion,dc=com?ROLE",AIF-11.1.2.0,,,Demo_Users,
+
+
+

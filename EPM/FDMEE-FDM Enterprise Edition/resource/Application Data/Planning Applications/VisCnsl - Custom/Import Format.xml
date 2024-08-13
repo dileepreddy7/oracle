@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ImportFormats>
+   <ImportGroupsLcmVO/>
+   <ImportGroupsAdapterVO/>
+   <ImportGroupsFileLcmVO>
+      <ImportGroupsFileLcmVORow>
+         <Impgroupkey>LoadProductMetadata</Impgroupkey>
+         <Impgroupdesc null="true"/>
+         <SourceSystemName>Data Source</SourceSystemName>
+         <Impgroupfiletype>DELIMDATA</Impgroupfiletype>
+         <Impgroupdelimiter>,</Impgroupdelimiter>
+         <Impdrillrequestmethod null="true"/>
+         <Impdrillurl null="true"/>
+         <EpmSourceSystemName>ERP Chart of Accounts</EpmSourceSystemName>
+         <Impodiscenario>DATASOURCE</Impodiscenario>
+         <TargetApplicationName>VisCnsl</TargetApplicationName>
+         <ApplicationName>VisCnsl - Custom</ApplicationName>
+         <ImportItemDetailsForFileLcmVO>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ACCOUNT</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Segment Value</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ATTR1</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Generation</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ATTR2</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Hierarchy Top Node</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ATTR3</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Level</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ENTITY</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Parent Value</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>ICP</Impfldfieldname>
+               <Impfldfixedtext null="true"/>
+               <Impfldsourcecolname>Description</Impfldsourcecolname>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp>copysource()</Impfldtargetexp>
+            </ImportItemDetailsForFileLcmVORow>
+            <ImportItemDetailsForFileLcmVORow>
+               <Impfldfieldname>UD1</Impfldfieldname>
+               <Impfldfixedtext>constant("blank")</Impfldfixedtext>
+               <Impfldstartpos>1</Impfldstartpos>
+               <Impfldlength>1</Impfldlength>
+               <Impfldtargetexp null="true"/>
+            </ImportItemDetailsForFileLcmVORow>
+         </ImportItemDetailsForFileLcmVO>
+      </ImportGroupsFileLcmVORow>
+   </ImportGroupsFileLcmVO>
+</ImportFormats>

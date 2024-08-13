@@ -1,0 +1,1698 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataRuleForLcmVO>
+   <DataRuleForLcmVORow>
+      <AmountType null="true"/>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs null="true"/>
+      <BalanceAmountIs null="true"/>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection null="true"/>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag null="true"/>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Plan Data for Supremo</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath null="true"/>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Planning Fin Fusion</Partname>
+      <Catname>Plan</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag>N</DirectFileLoadFlag>
+      <LoadOptions null="true"/>
+      <Impgroupkey>FinFSN Format</Impgroupkey>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <SourceAppPlanType>PLAN2</SourceAppPlanType>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1001</ParameterId>
+            <ParameterName>DataExportDynamicCalc</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1002</ParameterId>
+            <ParameterName>LOAD_TYPE</ParameterName>
+            <ParameterValue>Data</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1003</ParameterId>
+            <ParameterName>JOURNAL_STATUS</ParameterName>
+            <ParameterValue>Working</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1004</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1005</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1006</ParameterId>
+            <ParameterName>CREATE_DRILL_REGION</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1007</ParameterId>
+            <ParameterName>PURGE_DATA_FILE</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1008</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1009</ParameterId>
+            <ParameterName>ENFORCE_SECURITY_FOR_ADMIN</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1010</ParameterId>
+            <ParameterName>DISPLAY_VALIDATION_REASON</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1011</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("OFS_Gross Profit"),@ILvl0Descendants("OFS_Total Expenses")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1012</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"C_120"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1013</ParameterId>
+            <ParameterName>Entity</ParameterName>
+            <ParameterValue>@ILvl0Descendants("CC_T")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1014</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"OEP_Plan"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1015</ParameterId>
+            <ParameterName>Version</ParameterName>
+            <ParameterValue>"OEP_Working"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1016</ParameterId>
+            <ParameterName>DataExportPrecision</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1017</ParameterId>
+            <ParameterName>DataExportDecimal</ParameterName>
+            <ParameterValue>2</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>USCOA C120 YTD Load</RuleDescription>
+      <RuleName>Supremo Trial Balance YTD</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP Supremo</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1018</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1019</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1020</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1021</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"[Company].[All Company Values].[120]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1022</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Period Activity"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1023</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"YTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1024</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>"[Line of Business].[All Line of Business Values].[10]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1025</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1026</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1027</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1028</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1029</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1030</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1031</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1032</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>EBS Data Load</RuleDescription>
+      <RuleName>> EBS</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>EBSSourceData.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox/EBS</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>EBS</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>EBS</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>File Import Data Closing Balanace</RuleDescription>
+      <RuleName>Europe Closing Balance</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>Trial Balance Jun 2017 Clo Bal.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Europe Closing Bal</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>File Import Clo Bal</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>File Import Data</RuleDescription>
+      <RuleName>Europe Trial Balance - Flat File</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>Trial Balance Jun 2023.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox/</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Europe</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>File Import Data</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1033</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1034</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1035</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>File Import Data Inventory Split</RuleDescription>
+      <RuleName>Europe Trial Balance Inventory Split</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>TB.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Europe</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>File Import Data</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1036</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1037</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1038</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>File Import Data BU</RuleDescription>
+      <RuleName>Europe Business Unit</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>Trial Balance Jun 2017.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Europe Business Unit</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>File Import Data BU</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Plan Data</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath null="true"/>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Planning</Partname>
+      <Catname>Plan</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>PlanningFcst</Impgroupkey>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <SourceAppPlanType>PLAN1</SourceAppPlanType>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1039</ParameterId>
+            <ParameterName>DataExportDynamicCalc</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1040</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("Gross Margin"),@ILvl0Descendants("A_60000"),@ILvl0Descendants("A_70000")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1041</ParameterId>
+            <ParameterName>Entity</ParameterName>
+            <ParameterValue>C_101</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1042</ParameterId>
+            <ParameterName>Version</ParameterName>
+            <ParameterValue>OEP_Working</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1043</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>Plan</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1044</ParameterId>
+            <ParameterName>DataExportPrecision</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1045</ParameterId>
+            <ParameterName>DataExportDecimal</ParameterName>
+            <ParameterValue>2</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1046</ParameterId>
+            <ParameterName>CREATE_DRILL_REGION</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1047</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1048</ParameterId>
+            <ParameterName>LOAD_TYPE</ParameterName>
+            <ParameterValue>Data</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1049</ParameterId>
+            <ParameterName>PURGE_DATA_FILE</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1050</ParameterId>
+            <ParameterName>ENFORCE_SECURITY_FOR_ADMIN</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1051</ParameterId>
+            <ParameterName>DISPLAY_VALIDATION_REASON</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1052</ParameterId>
+            <ParameterName>JOURNAL_STATUS</ParameterName>
+            <ParameterValue>Working</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1053</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1054</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1055</ParameterId>
+            <ParameterName>JOURNAL_BALANCE_TYPE</ParameterName>
+            <ParameterValue>B</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>Forecast Data</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Planning</Partname>
+      <Catname>Forecast</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <SourceAppPlanType>PLAN1</SourceAppPlanType>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1056</ParameterId>
+            <ParameterName>DataExportDynamicCalc</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1057</ParameterId>
+            <ParameterName>DataExportPrecision</ParameterName>
+            <ParameterValue>0</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1058</ParameterId>
+            <ParameterName>DataExportDecimal</ParameterName>
+            <ParameterValue>2</ParameterValue>
+            <ParameterType>SOURCE_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1059</ParameterId>
+            <ParameterName>Version</ParameterName>
+            <ParameterValue>OEP_Working</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1060</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>Forecast</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1061</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("Gross Margin"),@ILvl0Descendants("A_60000"),@ILvl0Descendants("A_70000")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1062</ParameterId>
+            <ParameterName>Entity</ParameterName>
+            <ParameterValue>C_101</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>> Fusion Cloud ERP US 101</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>Fusion Cloud GL R12</Impgroupkey>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1063</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1064</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1065</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1066</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"[Company].[All Company Values].[101]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1067</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Period Activity"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1068</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"PTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1069</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>"[Line of Business].[All Line of Business Values].[10]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1070</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1071</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1072</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1073</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1074</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>US 101 Balance Sheet Beginning Balance</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1075</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1076</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1077</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1078</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"[Company].[All Company Values].[101]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1079</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Ending Balance"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1080</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"YTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1081</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>"[Line of Business].[All Line of Business Values].[10]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1082</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1083</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1084</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1085</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1086</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1087</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>US 101 Beginning Balance Other</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1088</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1089</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1090</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1091</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Company Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1092</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Ending Balance"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1093</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"YTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1094</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Line of Business Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1095</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1096</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1097</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1098</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1099</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1100</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>PeopleSoft Data Load</RuleDescription>
+      <RuleName>> PeopleSoft</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>PSoft Data.csv</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox/PeopleSoft</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>PeopleSoft</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>PeopleSoft</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode null="true"/>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode null="true"/>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType null="true"/>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag null="true"/>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>Singapore Trial Balance</RuleDescription>
+      <RuleName>> Flat File for Singapore</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic>SGPTrialBalance.txt</FileNameStatic>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox/Singapore</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Singapore</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod null="true"/>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey>SGP_TB</Impgroupkey>
+      <MultiPeriodFileFlag>N</MultiPeriodFileFlag>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription null="true"/>
+      <RuleName>UK Balance Sheet Beginning Balances</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP UK</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1101</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1102</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1103</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1104</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Company Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1105</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Ending Balance"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1106</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"YTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1107</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Line of Business Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1108</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[UK Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1109</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1110</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1111</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1112</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"GBP"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>US COA - Supremo</RuleDescription>
+      <RuleName>Fusion Cloud ERP Supremo</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1113</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1114</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1115</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1116</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"[Company].[All Company Values].[120]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1117</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Period Activity"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1118</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"PTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1119</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>"[Line of Business].[All Line of Business Values].[10]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1120</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1121</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1122</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1123</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1124</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1125</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1126</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1127</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+   <DataRuleForLcmVORow>
+      <AmountType>MONETARY</AmountType>
+      <BalSegValueOptionCode>ALL</BalSegValueOptionCode>
+      <BalanceAmountBs>YTD</BalanceAmountBs>
+      <BalanceAmountIs>PERIODIC</BalanceAmountIs>
+      <BalanceMethodCode>STANDARD</BalanceMethodCode>
+      <BalanceSelection>FUNCTIONAL</BalanceSelection>
+      <BalanceType>A</BalanceType>
+      <ExchangeAverageRateType null="true"/>
+      <ExchangeBeginRateType null="true"/>
+      <ExchangeEndRateType null="true"/>
+      <ExchangeRateOptionCode null="true"/>
+      <InclZeroBalanceFlag>N</InclZeroBalanceFlag>
+      <IncludeAdjPeriodsFlag>N</IncludeAdjPeriodsFlag>
+      <LedgerGroup null="true"/>
+      <PlanType>PLAN1</PlanType>
+      <RuleDescription>US COA -  Supremo Beg Bal</RuleDescription>
+      <RuleName>Supremo Balance Sheet Beginning Balances</RuleName>
+      <CalendarId null="true"/>
+      <BrMemberName null="true"/>
+      <BrMemberDispName null="true"/>
+      <CurrencyCode null="true"/>
+      <FileNameDateFormat null="true"/>
+      <FileNameStatic null="true"/>
+      <FileNameSuffixType null="true"/>
+      <FilePath>inbox</FilePath>
+      <PeriodMappingType>DEFAULT</PeriodMappingType>
+      <Version null="true"/>
+      <DpMemberName null="true"/>
+      <BlankPeriodkey null="true"/>
+      <AsOfDate null="true"/>
+      <Partname>Cloud ERP</Partname>
+      <Catname>Actual</Catname>
+      <MultiCurrencyFlag>N</MultiCurrencyFlag>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <SourceLedgerName null="true"/>
+      <LedgerGroupName null="true"/>
+      <SignageMethod>ABSOLUTE</SignageMethod>
+      <DirectFileLoadFlag null="true"/>
+      <LoadOptions null="true"/>
+      <Impgroupkey null="true"/>
+      <MultiPeriodFileFlag null="true"/>
+      <IcpLoad null="true"/>
+      <RuleAttr1 null="true"/>
+      <RuleAttr2 null="true"/>
+      <RuleAttr3 null="true"/>
+      <RuleAttr4 null="true"/>
+      <RuleParamsForLcmVO>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1128</ParameterId>
+            <ParameterName>Cost Center</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Cost Center Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1129</ParameterId>
+            <ParameterName>Intercompany</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Intercompany Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1130</ParameterId>
+            <ParameterName>Account</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Account Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1131</ParameterId>
+            <ParameterName>Company</ParameterName>
+            <ParameterValue>"[Company].[All Company Values].[120]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1132</ParameterId>
+            <ParameterName>Balance Amount</ParameterName>
+            <ParameterValue>"Ending Balance"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1133</ParameterId>
+            <ParameterName>Amount Type</ParameterName>
+            <ParameterValue>"YTD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1134</ParameterId>
+            <ParameterName>Line of Business</ParameterName>
+            <ParameterValue>"[Line of Business].[All Line of Business Values].[10]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1135</ParameterId>
+            <ParameterName>Ledger</ParameterName>
+            <ParameterValue>"[Ledger].[All Ledgers].[US Primary Ledger]"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1136</ParameterId>
+            <ParameterName>Product</ParameterName>
+            <ParameterValue>@ILvl0Descendants("All Product Values")</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1137</ParameterId>
+            <ParameterName>Scenario</ParameterName>
+            <ParameterValue>"Actual"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1138</ParameterId>
+            <ParameterName>Currency Type</ParameterName>
+            <ParameterValue>"Total"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1139</ParameterId>
+            <ParameterName>JOURNAL_TYPE</ParameterName>
+            <ParameterValue>R</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1140</ParameterId>
+            <ParameterName>JOURNAL_POST_AS</ParameterName>
+            <ParameterValue>PER</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1141</ParameterId>
+            <ParameterName>ENABLE_ZERO_LOAD</ParameterName>
+            <ParameterValue>1</ParameterValue>
+            <ParameterType>TARGET_OPTIONS</ParameterType>
+         </RuleParamsForLcmVORow>
+         <RuleParamsForLcmVORow>
+            <ParameterId>1142</ParameterId>
+            <ParameterName>Currency</ParameterName>
+            <ParameterValue>"USD"</ParameterValue>
+            <ParameterType>SOURCE_FILTERS</ParameterType>
+         </RuleParamsForLcmVORow>
+      </RuleParamsForLcmVO>
+   </DataRuleForLcmVORow>
+</DataRuleForLcmVO>

@@ -1,0 +1,738 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CheckRuleGroupForLcmVO>
+   <CheckRuleGroupForLcmVORow>
+      <Valgroupdate>2023-05-19</Valgroupdate>
+      <Valgroupdesc>Supremo Check - Cloud</Valgroupdesc>
+      <Valgroupkey>Supremo Check</Valgroupkey>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <CheckRuleItemForLcmVO>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_Periodic,,C_120,FCCS_Gross Profit,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>25</Valruleseq>
+            <Valruletargetacctdesc>Gross Profit</Valruletargetacctdesc>
+            <Valruletargetacctkey>Gross Profit</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_Periodic,,C_120,FCCS_Operating Expenses,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>30</Valruleseq>
+            <Valruletargetacctdesc>Operating Expense</Valruletargetacctdesc>
+            <Valruletargetacctkey>OpExp</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_Periodic,,C_120,FCCS_Net Income,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>35</Valruleseq>
+            <Valruletargetacctdesc>Net Income</Valruletargetacctdesc>
+            <Valruletargetacctkey>Net Income</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Assets,FCCS_Entity Total,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>40</Valruleseq>
+            <Valruletargetacctdesc>Total Assets</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total Assets</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>5</Valruleseq>
+            <Valruletargetacctdesc>Supremo Validation Report</Valruletargetacctdesc>
+            <Valruletargetacctkey>#Title</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>15</Valruleseq>
+            <Valruletargetacctdesc>NA</Valruletargetacctdesc>
+            <Valruletargetacctkey>#ModeList</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_Periodic,,C_120,FCCS_Sales,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>20</Valruleseq>
+            <Valruletargetacctdesc>Total Sales</Valruletargetacctdesc>
+            <Valruletargetacctkey>Sales</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>45</Valruleseq>
+            <Valruletargetacctdesc>Total Liab and Equ</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total L&amp;E</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>50</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>55</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>60</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>65</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>Cash Balance</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|>  0;|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>70</Valruleseq>
+            <Valruletargetacctdesc>Cash Balance > 0</Valruletargetacctdesc>
+            <Valruletargetacctkey>Cash</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Supremo Check</Valgroupkey>
+            <Valruledesc>OOB</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY22,FCCS_YTD,,C_120,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>80</Valruleseq>
+            <Valruletargetacctdesc>Balance Sheet in Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>Balance</Valruletargetacctkey>
+            <Valruletext>Out-of-Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+      </CheckRuleItemForLcmVO>
+   </CheckRuleGroupForLcmVORow>
+   <CheckRuleGroupForLcmVORow>
+      <Valgroupdate>2019-04-29</Valgroupdate>
+      <Valgroupdesc>Vision Check - Cloud</Valgroupdesc>
+      <Valgroupkey>Vision Check Cloud</Valgroupkey>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <CheckRuleItemForLcmVO>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>OOB</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>80</Valruleseq>
+            <Valruletargetacctdesc>Balance Sheet in Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>Balance</Valruletargetacctkey>
+            <Valruletext>Out-of-Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Sales,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>20</Valruleseq>
+            <Valruletargetacctdesc>Total Sales</Valruletargetacctdesc>
+            <Valruletargetacctkey>Sales</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>Cash Balance</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|>  0;|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>70</Valruleseq>
+            <Valruletargetacctdesc>Cash Balance > 0</Valruletargetacctdesc>
+            <Valruletargetacctkey>Cash</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Operating Expenses,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>30</Valruleseq>
+            <Valruletargetacctdesc>Operating Expense</Valruletargetacctdesc>
+            <Valruletargetacctkey>OpExp</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>40</Valruleseq>
+            <Valruletargetacctdesc>Total Assets</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total Assets</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Gross Profit,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>25</Valruleseq>
+            <Valruletargetacctdesc>Gross Profit</Valruletargetacctdesc>
+            <Valruletargetacctkey>Gross Profit</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>45</Valruleseq>
+            <Valruletargetacctdesc>Total Liab and Equ</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total L&amp;E</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>5</Valruleseq>
+            <Valruletargetacctdesc>Vision Validation Report</Valruletargetacctdesc>
+            <Valruletargetacctkey>#Title</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_101,FCCS_Net Income,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>35</Valruleseq>
+            <Valruletargetacctdesc>Net Income</Valruletargetacctdesc>
+            <Valruletargetacctkey>Net Income</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>15</Valruleseq>
+            <Valruletargetacctdesc>NA</Valruletargetacctdesc>
+            <Valruletargetacctkey>#ModeList</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>60</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>50</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>55</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check Cloud</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>60</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+      </CheckRuleItemForLcmVO>
+   </CheckRuleGroupForLcmVORow>
+   <CheckRuleGroupForLcmVORow>
+      <Valgroupdate>2017-09-20</Valgroupdate>
+      <Valgroupdesc>Vision Check - File</Valgroupdesc>
+      <Valgroupkey>Vision Check</Valgroupkey>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <CheckRuleItemForLcmVO>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Sales,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>20</Valruleseq>
+            <Valruletargetacctdesc>Total Sales</Valruletargetacctdesc>
+            <Valruletargetacctkey>Sales</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Gross Profit,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>25</Valruleseq>
+            <Valruletargetacctdesc>Gross Profit</Valruletargetacctdesc>
+            <Valruletargetacctkey>Gross Profit</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Operating Expenses,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>30</Valruleseq>
+            <Valruletargetacctdesc>Operating Expense</Valruletargetacctdesc>
+            <Valruletargetacctkey>OpExp</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>45</Valruleseq>
+            <Valruletargetacctdesc>Total Liab and Equ</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total L&amp;E</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>OOB</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>80</Valruleseq>
+            <Valruletargetacctdesc>Balance Sheet in Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>Balance</Valruletargetacctkey>
+            <Valruletext>Out-of-Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Net Income,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>35</Valruleseq>
+            <Valruletargetacctdesc>Net Income</Valruletargetacctdesc>
+            <Valruletargetacctkey>Net Income</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_Total,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>40</Valruleseq>
+            <Valruletargetacctdesc>Total Assets</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total Assets</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>Cash Balance</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|>  0;|Actual,Jun,FY20,FCCS_YTD,,C_405,FCCS_Cash And Cash Equivalents,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>70</Valruleseq>
+            <Valruletargetacctdesc>Cash Balance > 0</Valruletargetacctdesc>
+            <Valruletargetacctkey>Cash</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>60</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>15</Valruleseq>
+            <Valruletargetacctdesc>NA</Valruletargetacctdesc>
+            <Valruletargetacctkey>#ModeList</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>75</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#ModeRule</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>50</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>55</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>60</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>5</Valruleseq>
+            <Valruletargetacctdesc>Vision Validation Report</Valruletargetacctdesc>
+            <Valruletargetacctkey>#Title</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+      </CheckRuleItemForLcmVO>
+   </CheckRuleGroupForLcmVORow>
+   <CheckRuleGroupForLcmVORow>
+      <Valgroupdate>2017-09-20</Valgroupdate>
+      <Valgroupdesc>Vision Check - EBS</Valgroupdesc>
+      <Valgroupkey>Vision Check EBS</Valgroupkey>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <CheckRuleItemForLcmVO>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>10</Valruleseq>
+            <Valruletargetacctdesc>Key Numbers - Validate to Trial Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>45</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validation</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>5</Valruleseq>
+            <Valruletargetacctdesc>Vision Validation Report</Valruletargetacctdesc>
+            <Valruletargetacctkey>#Title</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>10</Valruleseq>
+            <Valruletargetacctdesc>Key Numbers - Validate to Trial Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>15</Valruleseq>
+            <Valruletargetacctdesc>NA</Valruletargetacctdesc>
+            <Valruletargetacctkey>#ModeList</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_Mvmts_Total,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>30</Valruleseq>
+            <Valruletargetacctdesc>Total Assets</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total Assets</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_Mvmts_Total,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>35</Valruleseq>
+            <Valruletargetacctdesc>Total Liab and Equ</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total L&amp;E</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>OOB</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|</Valrulelogic>
+            <Valruleseq>50</Valruleseq>
+            <Valruletargetacctdesc>Balance Sheet in Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>Balance</Valruletargetacctkey>
+            <Valruletext>Out-of-Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Operating Expenses,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_NetIncome,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>20</Valruleseq>
+            <Valruletargetacctdesc>Operating Expenses</Valruletargetacctdesc>
+            <Valruletargetacctkey>OpExp</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check EBS</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_102,FCCS_Net Income,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_NetIncome,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>25</Valruleseq>
+            <Valruletargetacctdesc>Net Income</Valruletargetacctdesc>
+            <Valruletargetacctkey>Net Income</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+      </CheckRuleItemForLcmVO>
+   </CheckRuleGroupForLcmVORow>
+   <CheckRuleGroupForLcmVORow>
+      <Valgroupdate>2017-09-20</Valgroupdate>
+      <Valgroupdesc>Vision Check - PeopleSoft</Valgroupdesc>
+      <Valgroupkey>Vision Check PSFT</Valgroupkey>
+      <TargetApplicationName>VisCnsl</TargetApplicationName>
+      <ApplicationName>VisCnsl</ApplicationName>
+      <CheckRuleItemForLcmVO>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>15</Valruleseq>
+            <Valruletargetacctdesc>NA</Valruletargetacctdesc>
+            <Valruletargetacctkey>#ModeList</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>50</Valruleseq>
+            <Valruletargetacctdesc>Calculated Validations</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>5</Valruleseq>
+            <Valruletargetacctdesc>Vision Validation Report</Valruletargetacctdesc>
+            <Valruletargetacctkey>#Title</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>10</Valruleseq>
+            <Valruletargetacctdesc>Key Numbers - Validate to Trial Balance</Valruletargetacctdesc>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_Mvmts_Total,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>40</Valruleseq>
+            <Valruletargetacctdesc>Total Liab and Equity</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total L&amp;E</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>OOB</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|-|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Total Liabilities and Equity,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_ClosingBalance,FCCS_Local GAAP,Total Product,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>55</Valruleseq>
+            <Valruletargetacctdesc>Bal Sheet is Balanced</Valruletargetacctdesc>
+            <Valruletargetacctkey>Balance</Valruletargetacctkey>
+            <Valruletext>Out-of-Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Sales,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_NetIncome,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>20</Valruleseq>
+            <Valruletargetacctdesc>Total Sales</Valruletargetacctdesc>
+            <Valruletargetacctkey>Sales</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Operating Expenses,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_NetIncome,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>25</Valruleseq>
+            <Valruletargetacctdesc>Operating Expenses</Valruletargetacctdesc>
+            <Valruletargetacctkey>Op Exp</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Net Income,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Managed Data,FCCS_Mvmts_NetIncome,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>30</Valruleseq>
+            <Valruletargetacctdesc>Net Income</Valruletargetacctdesc>
+            <Valruletargetacctkey>Net Income</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic>|Actual,Jun,FY20,FCCS_YTD,,C_251,FCCS_Total Assets,FCCS_Entity Input,FCCS_Intercompany Top,,FCCS_Total Data Source,FCCS_Mvmts_Total,FCCS_Local GAAP,P_000,,,,,,,,,,,,,,,|;</Valrulelogic>
+            <Valruleseq>35</Valruleseq>
+            <Valruletargetacctdesc>Total Assets</Valruletargetacctdesc>
+            <Valruletargetacctkey>Total Assets</Valruletargetacctkey>
+            <Valruletext>Validate to Trial Balance</Valruletext>
+         </CheckRuleItemForLcmVORow>
+         <CheckRuleItemForLcmVORow>
+            <Valgroupkey>Vision Check PSFT</Valgroupkey>
+            <Valruledesc>NA</Valruledesc>
+            <Valruleenttype>0</Valruleenttype>
+            <Valrulelogic null="true"/>
+            <Valruleseq>45</Valruleseq>
+            <Valruletargetacctdesc null="true"/>
+            <Valruletargetacctkey>#SubTitle</Valruletargetacctkey>
+            <Valruletext>NA</Valruletext>
+         </CheckRuleItemForLcmVORow>
+      </CheckRuleItemForLcmVO>
+   </CheckRuleGroupForLcmVORow>
+</CheckRuleGroupForLcmVO>

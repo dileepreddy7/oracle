@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LocationForLcmVO>
+   <LocationForLcmVORow>
+      <Partname>Data Warehouse</Partname>
+      <Partdesc>FCCS to DW Level 0 Entities</Partdesc>
+      <SourceSystemName>EPM</SourceSystemName>
+      <TargetApplicationName>AMgmtRpt-MgmtRpt</TargetApplicationName>
+      <ApplicationName>AMgmtRpt-MgmtRpt</ApplicationName>
+      <Partcurrencykey>[NONE]</Partcurrencykey>
+      <Partimpgroup>FCCS2DWL0</Partimpgroup>
+      <Partdatavalue null="true"/>
+      <Partvalgroup>[NONE]</Partvalgroup>
+      <Parentlocationname null="true"/>
+      <Partvalentgroup>[NONE]</Partvalentgroup>
+      <Partlogicgroup>[NONE]</Partlogicgroup>
+      <Partintgconfig1 null="true"/>
+      <Partintgconfig2 null="true"/>
+      <Partintgconfig3 null="true"/>
+      <Partintgconfig4 null="true"/>
+      <Sourceappname>VisCnsl</Sourceappname>
+   </LocationForLcmVORow>
+</LocationForLcmVO>
