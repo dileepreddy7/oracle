@@ -4,13 +4,13 @@
     <User name="" password=""/>
     <ExportedVersion>24.08.58</ExportedVersion>
     <ExportedDateUTC>20240822</ExportedDateUTC>
-    <ExportedTimeUTC>12:07</ExportedTimeUTC>
+    <ExportedTimeUTC>12:15</ExportedTimeUTC>
     <ExportedBy>epm_default_cloud_admin</ExportedBy>
     <IDMDomain></IDMDomain>
     <ServiceInstance>epm-303496-fcc</ServiceInstance>
     <Task>
         <Source type="FileSystem" filePath="/CALC-Calculation Manager"/>
         <Target type="Application" product="CALC" project="Foundation" application="Calculation Manager"/>
-        <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_20_Final Calculations_LocalCurrency"/>
+        <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Discount"/>
     </Task>
 </Package>

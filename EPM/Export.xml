@@ -5,6 +5,6 @@
     <Task>
         <Source type="Application" product="CALC" project="Foundation" application="Calculation Manager"/>
         <Target type="FileSystem" filePath="/CALC-Calculation Manager"/>
-        <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_20_Final Calculations_LocalCurrency"/>
+        <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Discount"/>
     </Task>
 </Package>
