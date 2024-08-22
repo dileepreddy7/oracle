@@ -5,6 +5,6 @@
     	ELSEIF("41000">2000 and "41000"<=3000)
     	"Qty Based Discount" = "41000"*0.20;
     	ELSEIF("41000">3000)
-    	"Qty Based Discount" = "41000"*0.30;
+    	"Qty Based Discount" = "41000"*0.40;
     	EndIf;);
 EndFIX;]]></script></rule></rules><components/><deployobjects><deployobject application="viscnsl" name="DISCOUNT" obj_id="1" obj_type="1" plantype="consol" product="2"/></deployobjects></HBRRepo>
