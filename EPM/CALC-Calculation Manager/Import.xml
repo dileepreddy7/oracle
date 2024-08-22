@@ -9,7 +9,7 @@
     <IDMDomain></IDMDomain>
     <ServiceInstance>epm-303496-fcc</ServiceInstance>
     <Task>
-        <Source type="FileSystem" filePath="/CALC-Calculation Manager"/>
+        <Source type="FileSystem" filePath="/"/>
         <Target type="Application" product="CALC" project="Foundation" application="Calculation Manager"/>
         <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Discount"/>
         <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="FCCS_10_After Opening Balance Carry Forward_LocalCurrency"/>

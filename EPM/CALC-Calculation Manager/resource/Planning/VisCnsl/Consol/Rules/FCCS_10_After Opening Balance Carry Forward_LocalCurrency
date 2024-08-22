@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><HBRRepo><variables/><rulesets/><rules><rule id="1" name="FCCS_10_After Opening Balance Carry Forward_LocalCurrency" product="Planning"><property name="description">Calculations to be performed after the Opening Balance carry forward calculations but before balancing the Balance Sheet</property><property name="application">VisCnsl</property><property name="plantype">Consol</property><property name="customized">true</property><property name="display_label">FCCS_10_After Opening Balance Carry Forward_LocalCurrency</property><property name="formBusinessRule">false</property><property name="formCallback">false</property><property name="formContextMenu">false</property><property name="seeded">true</property><property name="seedLockBrokenBy">Maria</property><property name="standAlone">false</property><property name="systemCallback">false</property><script type="calcscript"><![CDATA[FIX (/*DIM:Consolidation*/"FCCS_Entity Input",/*DIM:Currency*/"Entity Currency",/*DIM:Movements*/"FCCS_No Movement",/*DIM:Data Source*/"FCCS_Data Input",/*DIM:Multi-GAAP*/"FCCS_No Multi-GAAP",/*DIM:View*/"FCCS_Periodic",/*DIM:Product*/"No Product")
+
+FIX(@relative("FCCS_Intercompany Top",0))
+"Mark-up"= 0;
+"Mark-up"= #Missing;
+ENDFIX
+
+"ICP_C_301"(
+        IF (@IsMBR("[Europe].[C_310]"))
+           "Mark-up"= "ICO Inventory"->"FCCS_Mvmts_Inventories"->"FCCS_Local GAAP"->"P_000"*("Mark-up %"->@Member(@concatenate("[",@concatenate(@name(@parent(@CurrMbr("Entity"))),@concatenate("].[",@concatenate((@Substring(@Name(@CurrMBR("Intercompany")),4)),"]")))))->@Member(@concatenate("ICP_",@Name(@CurrMbr("Entity"))))/(1+"Mark-up %"->@Member(@concatenate("[",@concatenate(@name(@parent(@CurrMbr("Entity"))),@concatenate("].[",@concatenate((@Substring(@Name(@CurrMBR("Intercompany")),4)),"]")))))->@Member(@concatenate("ICP_",@Name(@CurrMbr("Entity"))))));
+        ENDIF
+              ) 
+ENDFIX
+]]></script></rule></rules><components/><deployobjects><deployobject application="viscnsl" name="FCCS_10_AFTER OPENING BALANCE CARRY FORWARD_LOCALCURRENCY" obj_id="1" obj_type="1" plantype="consol" product="2"/></deployobjects></HBRRepo>
