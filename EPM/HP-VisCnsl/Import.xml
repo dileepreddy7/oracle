@@ -9,7 +9,7 @@
    <IDMDomain></IDMDomain>
    <ServiceInstance>epm-303496-fcc</ServiceInstance>
    <Task>
-      <Source type="FileSystem" filePath="/HP-VisCnsl"/>
+      <Source type="FileSystem" filePath="/"/>
       <Target type="Application" product="HP" project="Default Application Group" application="VisCnsl"/>
       <Artifact recursive="false" parentPath="/Supplemental Data/System Settings/Preferences" pattern="All System Preferences"/>
    </Task>

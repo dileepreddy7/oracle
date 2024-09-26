@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <LOCALE>en_US</LOCALE>
-    <User name="" password=""/>
-    <Task>
-        <Source type="Application" product="CALC" project="Foundation" application="Calculation Manager"/>
-        <Target type="FileSystem" filePath="/CALC-Calculation Manager"/>
-        <Artifact recursive="false" parentPath="/Planning/VisCnsl/Consol/Rules" pattern="Discount"/>
-    </Task>
+   <LOCALE>en_US</LOCALE>
+   <User name="" password=""/>
+   <Task>
+      <Source type="Application" product="HP" project="Default Application Group" application="VisCnsl"/>
+      <Target type="FileSystem" filePath="/HP-VisCnsl"/>
+      <Artifact recursive="false" parentPath="/Supplemental Data/System Settings/Preferences" pattern="All System Preferences"/>
+   </Task>
 </Package>
